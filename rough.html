@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Main Frontend</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="" class="navbar-brand">
+                <h1 class="m-0 display-4 font-weight-bold text-uppercase text-white">FitGenie</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4 bg-secondary">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Exercise</a>
+                    <a href="#" class="nav-item nav-link">Posture</a>
+                    <a href="#" class="nav-item nav-link">Videos </a>
+                    <a href="#" class="nav-item nav-link">Contact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Connect</a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="blog.html" class="dropdown-item">Login</a>
+                            <a href="single.html" class="dropdown-item">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="blog-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="text-primary text-capitalize m-0">Gym & Posture correct</h3>
+                        <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">Accurate in
+                            Work</h2>
+                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">View More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="text-primary text-capitalize m-0">Video Recommendation</h3>
+                        <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">Get In Shape
+                        </h2>
+                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">View More</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Gym Class Start -->
+    <div class="container gym-class mb-5">
+        <div class="row px-3">
+            <div class="col-md-6 p-0">
+                <div
+                    class="gym-class-box d-flex flex-column align-items-end justify-content-center bg-primary text-right text-white py-5 px-5">
+                    <i class="flaticon-six-pack"></i>
+                    <h3 class="display-4 mb-3 text-white font-weight-bold">Exercise Recommendation</h3>
+                    <p>
+                        A website providing exercise recommendations offers users valuable resources for tailored
+                        workout routines, techniques, exercises, instructions, demonstrations, tips, and customizable
+                        plans to achieve fitness goals.
+                    </p>
+                    <a href="" class="btn btn-lg btn-outline-light mt-4 px-4">View More</a>
+                </div>
+            </div>
+            <div class="col-md-6 p-0">
+                <div
+                    class="gym-class-box d-flex flex-column align-items-start justify-content-center bg-secondary text-left text-white py-5 px-5">
+                    <i class="flaticon-bodybuilding"></i>
+                    <h3 class="display-4 mb-3 text-white font-weight-bold">Posture Analysis</h3>
+                    <p>
+                        A website that provides posture analysis for users serves as a valuable resource, utilizing
+                        digital tools and techniques to assess and enhance posture. It offers individuals the
+                        opportunity to identify postural imbalances, correct alignment, and mitigate the risk of
+                        musculoskeletal issues, thereby promoting overall well-being and physical health.
+                    </p>
+                    <a href="" class="btn btn-lg btn-outline-light mt-4 px-4">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gym Class End -->
+
+
+    <!-- About Start -->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="img-fluid mb-4 mb-lg-0" src="img/about.jpg" alt="Image">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="display-4 font-weight-bold mb-4">How it works </h2>
+                <p>We made an AI/ML process through which we can provide users to check what they are doing and how they
+                    have to do certain exercise </p>
+                <div class="row py-2">
+                    <div class="col-sm-6">
+                        <i class="flaticon-barbell display-2 text-primary"></i>
+                        <h4 class="font-weight-bold">Workout Analysis</h4>
+                        <p>There we Provide Service where user can do certain exercise properly and get the precise
+                            Knowledge of that pose</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="flaticon-medal display-2 text-primary"></i>
+                        <h4 class="font-weight-bold">Achievement</h4>
+                        <p>After doing the Exercise you will get to Completion Reward</p>
+                    </div>
+                </div>
+                <a href="" class="btn btn-lg px-4 btn-outline-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-4 p-0">
+                <div class="d-flex align-items-center bg-secondary text-white px-5" style="min-height: 300px;">
+                    <i class="flaticon-training display-3 text-primary mr-3"></i>
+                    <div class="">
+                        <h2 class="text-white mb-3">Progression</h2>
+                        <p>Progressing in the gym refers to the process of gradually increasing the difficulty or
+                            intensity of your workouts over time to achieve continued growth and improvement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0">
+                <div class="d-flex align-items-center bg-primary text-white px-5" style="min-height: 300px;">
+                    <i class="flaticon-weightlifting display-3 text-secondary mr-3"></i>
+                    <div class="">
+                        <h2 class="text-white mb-3">Workout</h2>
+                        <p>A workout is a physical activity or exercise session that is designed to improve fitness,
+                            strength, endurance, or overall health.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0">
+                <div class="d-flex align-items-center bg-secondary text-white px-5" style="min-height: 300px;">
+                    <i class="flaticon-treadmill display-3 text-primary mr-3"></i>
+                    <div class="">
+                        <h2 class="text-white mb-3">Nutrition</h2>
+                        <p>Nutrition refers to the process of obtaining and consuming food in order to provide the body
+                            with the necessary nutrients for growth, maintenance, and overall well-being.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- GYM Feature Start -->
+    <div class="container feature pt-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-primary font-weight-bold">Why Choose Us?</h4>
+            <h4 class="display-4 font-weight-bold">Benifits of Using Our Website</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-1.jpg" alt="Image">
+                        <i class="flaticon-barbell"></i>
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="font-weight-bold">Videos Instruction</h4>
+                        <p>FitGenie, an exercise website, provides users with video instructions of exercises, offering
+                            visual guidance to enhance workout effectiveness, promote proper form and technique, and
+                            reduce the risk of injuries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-2.jpg" alt="Image">
+                        <i class="flaticon-training"></i>
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="font-weight-bold">Training Calendar</h4>
+                        <p>FitGenie, an exercise website, offers users a comprehensive Training Calendar feature,
+                            allowing them to plan and organize their workouts effectively, stay on track with their
+                            fitness goals, and optimize their training schedule for better results.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-3.jpg" alt="Image">
+                        <i class="flaticon-trends"></i>
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="font-weight-bold">Online Meet</h4>
+                        <p>FitGenie, an exercise website, enables users to participate in online meets, fostering a
+                            supportive community for virtual connections with trainers and fitness enthusiasts, offering
+                            guidance, motivation, and knowledge sharing to enhance their fitness journeys.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-4.jpg" alt="Image">
+                        <i class="flaticon-support"></i>
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="font-weight-bold">Community Support</h4>
+                        <p>FitGenie, an exercise website, provides a community support feature, allowing users to
+                            connect with like-minded individuals, receive encouragement, share experiences, and gain
+                            valuable support on their fitness journeys.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- GYM Feature End -->
+
+
+    <!-- Subscribe Start -->
+    <div class="subscribe container-fluid my-5 py-5 text-center">
+        <h4 class="display-4 text-white font-weight-bold mt-5 mb-3">Subscribe Our Newsletter</h4>
+        <p class="text-white mb-4">Subscribe and get Our latest article in your inbox</p>
+        <form class="form-inline justify-content-center mb-5">
+            <div class="input-group">
+                <input type="text" class="form-control-lg" placeholder="Your Email">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Subscribe End -->
+
+
+    <!-- Class Timetable Start -->
+    <div class="container gym-feature py-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-primary font-weight-bold">Class Timetable</h4>
+            <h4 class="display-4 font-weight-bold">Working Hours and Class Time</h4>
+        </div>
+        <div class="tab-class">
+            <ul class="nav nav-pills justify-content-center mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#class-all">All Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#class-cardio">Cardio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#class-crossfit">Crossfit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#class-powerlifting">Powerlifting</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="class-all" class="container tab-pane p-0 active">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-secondary text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">6.00am - 8.00am</th>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="class-cardio" class="container tab-pane fade p-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-secondary text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">6.00am - 8.00am</th>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Cardio</h5>Jeet Selal
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="class-crossfit" class="container tab-pane fade p-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-secondary text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">6.00am - 8.00am</th>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="class-powerlifting" class="container tab-pane fade p-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-secondary text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">6.00am - 8.00am</th>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td>
+                                        <h5>Cardio</h5>Jeet Selal
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>Crossfit</h5>Jeff Cavaliere
+                                    </td>
+                                    <td></td>
+                                    <td class="bg-primary text-white">
+                                        <h5 class="text-white">Power Lifting</h5>Eduard Checo
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Class Timetable End -->
+
+
+    <!-- BMI Calculation Start -->
+    <div class="container-fluid position-relative bmi my-5">
+        <div class="container">
+            <div class="row px-3 align-items-center">
+                <div class="col-md-6">
+                    <div class="pr-md-3 d-none d-md-block">
+                        <h4 class="text-primary">Body Mass Index </h4>
+                        <h4 class="display-4 text-white font-weight-bold mb-4">Whate is BMI?</h4>
+                        <p class="m-0 text-white">BMI stands for Body Mass Index. It is a numerical value calculated
+                            based on an individual's weight and height. The BMI is commonly used as a screening tool to
+                            assess whether a person has a healthy body weight for their height.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-secondary py-5">
+                    <div class="py-5 px-3">
+                        <h1 class="mb-4 text-white">Calculate your BMI</h1>
+                        <form>
+                            <div class="form-row">
+                                <div class="col form-group">
+                                    <input type="text" class="form-control form-control-lg bg-dark text-white"
+                                        placeholder="Weight (KG)">
+                                </div>
+                                <div class="col form-group">
+                                    <input type="text" class="form-control form-control-lg bg-dark text-white"
+                                        placeholder="Height (CM)">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col form-group">
+                                    <input type="text" class="form-control form-control-lg bg-dark text-white"
+                                        placeholder="Age">
+                                </div>
+                                <div class="col form-group">
+                                    <select class="custom-select custom-select-lg bg-dark text-muted">
+                                        <option>Gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="button" class="btn btn-lg btn-block btn-dark border-light"
+                                        value="Calculate Now">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BMI Calculation End -->
+
+
+    <!-- Team Start -->
+    <div class="container pt-5 team">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-primary font-weight-bold">Our Trainers</h4>
+            <h4 class="display-4 font-weight-bold">Meet Our Expert Trainers</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/Himalayan-1675142824-822561.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://twitter.com/jeetselal"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.facebook.com/jeetselalofficial"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.youtube.com/channel/UCg5LjzSV0GqSjXJXERkW1FA"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.instagram.com/jeet_selal/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="card-body bg-secondary">
+                        <h4 class="card-title text-primary">Jeet Selal</h4>
+                        <p class="card-text">Cardio</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/Jeff Cavaliere.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://twitter.com/trainer2thepros"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.facebook.com/athleanx"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.youtube.com/@athleanx/featured"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.instagram.com/athleanx/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="card-body bg-secondary">
+                        <h4 class="card-title text-primary">Jeff Cavaliere</h4>
+                        <p class="card-text">Crossfit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/Eduard Checo.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://twitter.com/trainer2thepros"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.facebook.com/Barstarzz"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.youtube.com/channel/UCg5LjzSV0GqSjXJXERkW1FA"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.instagram.com/barstarzz/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="card-body bg-secondary">
+                        <h4 class="card-title text-primary">Eduard Checo</h4>
+                        <p class="card-text">Power Lifting</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/Joanna Soh.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://twitter.com/barstarzz"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.facebook.com/joannasohofficial"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.youtube.com/@joannasohofficial"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                            style="width: 40px; height: 40px;" href="https://www.instagram.com/joannasohofficial/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="card-body bg-secondary">
+                        <h4 class="card-title text-primary">Joanna Soh</h4>
+                        <p class="card-text">Nutrition & Workout Plans</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Footer Start -->
+    <div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>TCET, Mumbai, India  </p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+91 9096198302</p>
+                <p><i class="fa fa-envelope mr-2"></i>pending@tcetmumbai.in</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                        style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                        style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                        style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                        style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Features</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Classes</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Features</a>
+                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Classes</a>
+                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-primary mb-4">Opening Hours</h4>
+                <h5 class="text-white">Monday - Friday</h5>
+                <p>8.00 AM - 8.00 PM</p>
+                <h5 class="text-white">Saturday - Sunday</h5>
+                <p>2.00 PM - 8.00 PM</p>
+            </div>
+        </div>
+        <div class="container border-top border-dark pt-5">
+            <p class="m-0 text-center text-white">
+                &copy; <a class="text-white font-weight-bold" href="#">FitGenie</a>. All Rights Reserved.
+                <a class="text-white font-weight-bold" href="https://htmlcodex.com">Harsh</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
